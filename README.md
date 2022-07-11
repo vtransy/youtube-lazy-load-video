@@ -7,17 +7,17 @@ Original link: https://github.com/the-muda-organization/youtube-lazyload
 
 
 
-Template for Youtube video container
+Template for Youtube video container - need to get your video id from youtube then replace in sample
 
 
 Load the Youtube LazyLoad’s JavaScript and CSS files in the html.
 
-```<link href="yoututbe-lazyload.min.css" rel="stylesheet">
-<script src="youtube-lazyload.min.js">```
+`<link href="yoututbe-lazyload.min.css" rel="stylesheet">`
+`<script src="youtube-lazyload.min.js">`
   
   
 Create an empty container for the Youtube video and specify the video ID in the data-id attribute:
-<div class="yt-lazyload" data-id="SACu6d2pdOI"></div>
+`<div class="yt-lazyload" data-id="SACu6d2pdOI"></div>`
   
   
 Customize the color of the Youtube logo. 0=none, 1=black, 2=color-black, 3=white, 4=color-white
